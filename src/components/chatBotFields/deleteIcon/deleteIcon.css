@@ -1,0 +1,13 @@
+.iconstyle{
+    cursor: pointer !important;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color:white;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+
+.iconstyle:hover{
+    color: rgba(255, 0, 0, 0.541);
+}

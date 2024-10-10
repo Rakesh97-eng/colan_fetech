@@ -1,0 +1,23 @@
+.cardinputimage{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    padding: 8px 2px;
+    border-radius: 5px;
+}
+.carddatainput{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 55px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.cardpaybutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}

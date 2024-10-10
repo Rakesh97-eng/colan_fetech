@@ -1,0 +1,14 @@
+.disabled{
+    pointer-events: none;
+    cursor:crosshair !important;
+    font-size: 120px !important;
+    align-self: center;
+    color: rgb(184 184 184 / 25%);
+}
+
+.activearrow{
+    cursor: pointer;
+    font-size: 120px !important;
+    align-self: center;
+    color: #00e68a87;
+}

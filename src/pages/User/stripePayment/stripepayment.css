@@ -1,0 +1,58 @@
+.accountcardcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 170px;
+    padding-left: 5px;
+    border: 2px solid rgb(173, 166, 166);
+    border-radius: 8px;
+    justify-content: space-around;
+    align-content: flex-start;
+    background-color: whitesmoke;
+
+}
+
+.accountcardcontainer>img{
+    object-fit: contain;
+    width: 30px;
+    height: 20px;
+}
+.accountcard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color:#606366!important;
+    margin: 15px 0px;
+    
+}
+
+.stripecontainer{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    background-color: #030028;
+    height: 100vh;
+    color: #FFFFFF;
+    padding: 5%;
+    
+}
+
+input,
+.StripeElement {
+  /* display: block; */
+  margin: 4px 0 4px 0;
+  max-width: 500px;
+  padding: 5px 14px;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
+  /* box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white; */
+}
+

@@ -1,0 +1,43 @@
+.cmsupload p {
+    font-size: 22px;
+    font-weight: 600;
+}
+.cmsupload{
+    width: 100%;
+}
+
+.cmscontainer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: self-end; */
+    /* justify-content: flex-start; */
+    /* height: 60vh; */
+    width: 70vw;
+    gap: 50px;
+    padding: 20px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 18px auto;
+}
+
+.cmsbutton{
+    align-self: center;
+    padding:10px 25px;
+    background-color: #00e785 !important;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+.crossbtn{
+    position: absolute;
+      top: -12px;
+      right: -12px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      font-size: 12px;
+  }

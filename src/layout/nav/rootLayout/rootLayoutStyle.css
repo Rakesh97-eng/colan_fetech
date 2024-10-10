@@ -1,0 +1,117 @@
+.layoutlist .MuiDrawer-paper {
+    background-color: #030028 !important;
+    color: #FFFFFF;
+    font-family: Mazzard;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* 
+.nested-list:hover {
+    color: green;
+}
+
+.nested-list:active,
+.nested-list:focus {
+    background-color: green !important;
+    color: black;
+} */
+
+.menuname .MuiListItemText-primary {
+    font-weight: 800 !important;
+    white-space: normal !important;
+}
+
+.menunameIsActive .MuiListItemText-primary {
+    font-weight: 400 !important;
+    white-space: normal !important;
+
+
+}
+
+.layoutcontainer {
+    z-index: 9999 !important;
+}
+
+.backarrow:focus {
+    outline: none !important;
+}
+
+.outletcontainer {
+    position: absolute;
+    top: 77px;
+    padding: 18px;
+    margin:auto
+}
+
+.opendrawer{
+ width: calc(100% - 20%) !important;
+  left: 268px;
+}
+
+.closedrawer{
+     width: calc(100% - 20px) !important;
+     left :40px !important
+}
+
+
+.mobileIcon{
+     color: black;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.mobilemenuicon{
+    display: none !important;
+}
+
+.closeicon{
+    position: relative;
+    right: 0px;
+    top: 2px;
+}
+
+.mobilelogo{
+
+}
+
+/* mobile Responsive screeen */
+
+@media screen and (max-width:450px) {
+    .open{
+        display: block  ;
+    }
+
+    .close{
+        display: none;
+    }
+
+    .openmenu{
+        display: none !important;
+    }
+    .openmobilemenu{
+        /* display: block !important; */
+        z-index: 999;
+    }
+
+    .webmenuIcon{
+        display:none !important
+    }
+
+    .mobilemenuicon{
+        display: block !important;
+    }
+
+    .closedrawer{
+        width: 0px;
+        left: 0px !important;
+    }
+
+    .outletcontainer{
+        padding: 0px !important;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,485 @@
+{
+    "Yes": {
+        "type": "button",
+        "body": {
+            "text": "test"
+        },
+        "action": {
+            "buttons": [
+                {
+                    "type": "reply",
+                    "reply": {
+                        "id": "dndnode_3",
+                        "title": "ttt"
+                    }
+                },
+                {
+                    "type": "reply",
+                    "reply": {
+                        "id": "dndnode_4",
+                        "title": "bbb"
+                    }
+                }
+            ]
+        }
+    },
+    "No": {
+        "type": "button",
+        "body": {
+            "text": "aaa"
+        },
+        "action": {
+            "buttons": [
+                {
+                    "type": "reply",
+                    "reply": {
+                        "id": "dndnode_5",
+                        "title": "ccc"
+                    }
+                }
+            ]
+        }
+    },
+    "dndnode_3": {
+        "type": "button",
+        "body": {
+            "text": "aaa"
+        },
+        "action": {
+            "buttons": [
+                {
+                    "type": "reply",
+                    "reply": {
+                        "id": "dndnode_5",
+                        "title": "ccc"
+                    }
+                }
+            ]
+        }
+    },
+    "dndnode_4": {
+        "type": "text",
+        "text": {
+            "body": "Thanks"
+        }
+    },
+    "dndnode_5": {
+        "type": "text",
+        "text": {
+            "body": "Thanks"
+        }
+    },
+    "starting_template": {
+        "name": "starting",
+        "language": "en_US",
+        "category": "MARKETING",
+        "components": [
+            {
+                "type": "BODY",
+                "text": "Welcom to Fetech, Would you like to continue?"
+            },
+            {
+                "type": "BUTTONS",
+                "buttons": [
+                    {
+                        "type": "QUICK_REPLY",
+                        "text": "Yes"
+                    },
+                    {
+                        "type": "QUICK_REPLY",
+                        "text": "No"
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+// ===============================================================================================================
+
+{
+    "dndnode_7": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "text": "Thank you for participating in our survey!"
+        }
+    },
+    "firstGroupNode": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "Welcom to Fetech, Would you like to continue?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "startingdndnode_1"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "startingdndnode_2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "startingdndnode_1": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": " Are you ready to start your health check-up?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_3"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_4"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_3": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "Great! Let's begin. Are you experiencing any symptoms today?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_5"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_6"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_4": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "No problem. If you need any assistance later, just let me know. Have a great day!",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Is there Anything?",
+                            "payload": "dndnode_7"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_11": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "No problem. If you need any assistance later, just let me know. Have a great day!",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Is there Anything?",
+                            "payload": "dndnode_7"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_9": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "No problem. If you need any assistance later, just let me know. Have a great day!",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Is there Anything?",
+                            "payload": "dndnode_7"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_16": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "No problem. If you need any assistance later, just let me know. Have a great day!",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Is there Anything?",
+                            "payload": "dndnode_7"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_5": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "Can you describe your symptoms? For example, fever, cough, headache, etc.",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "yes",
+                            "payload": "dndnode_8"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_9"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_6": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "\"That's good to hear! Are you interested in some general health tips?\"",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_10"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_11"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_8": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "Got it. Have you experienced these symptoms for more than 3 days?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_12"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_13"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_10": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "Got it. Have you experienced these symptoms for more than 3 days?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_12"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_13"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_12": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "I recommend you to see a healthcare professional. Would you like me to provide you with some nearby healthcare facilities?",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Yes",
+                            "payload": "dndnode_14"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "No",
+                            "payload": "dndnode_15"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_13": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "\"Okay. Remember to rest and stay hydrated. If symptoms worsen, consider seeing a healthcare professional.\"",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Thanks",
+                            "payload": "dndnode_16"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_15": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "\"Okay. Remember to rest and stay hydrated. If symptoms worsen, consider seeing a healthcare professional.\"",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Thanks",
+                            "payload": "dndnode_16"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "dndnode_14": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "\"Okay. Remember to rest and stay hydrated. If symptoms worsen, consider seeing a healthcare professional.\"",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Thanks",
+                            "payload": "dndnode_16"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "startingdndnode_2": {
+        "recipient": {
+            "id": "fbid"
+        },
+        "message": {
+            "attachment": {
+                "type": "template",
+                "payload": {
+                    "template_type": "button",
+                    "text": "\"Okay. Remember to rest and stay hydrated. If symptoms worsen, consider seeing a healthcare professional.\"",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Thanks",
+                            "payload": "dndnode_16"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

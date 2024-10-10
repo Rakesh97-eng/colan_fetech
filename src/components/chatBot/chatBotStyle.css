@@ -1,0 +1,71 @@
+
+
+.manageDrop{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.manageDrop>label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.managebotContainer{
+    padding: 35px;
+}
+
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    
+  }
+  
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  .MuiButtonBase-root{
+    /* justify-content: space-between !important; */
+    /* max-width: 70% !important; */
+  }
+  
+  .stackname{
+    height: 40vh;
+    overflow: scroll;
+    padding: 10px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+
+  .textareadiv{
+    height: 20px;
+    border-radius: 2px;
+    background-color: #db5290;
+    margin: -6px -6px 0px -6px;
+  }
+  
+
+ 
+  .customnode{
+    background-color: azure;
+    width: 2px;
+  }
+
+  
+  
+  textarea{
+    resize: none;
+  }

@@ -1,0 +1,272 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: -7px -7px 50px 0px rgba(0,0,0,0.08);
+-moz-box-shadow: -7px -7px 50px 0px rgba(0,0,0,0.08);
+box-shadow: -7px -7px 50px 0px rgba(0,0,0,0.08);
+
+  }
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 14px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  .MuiButtonBase-root{
+    /* justify-content: space-between !important; */
+    /* max-width: 70% !important; */
+  }
+  
+  .stackname{
+    height: 40vh;
+    overflow: scroll;
+    padding: 10px;
+  
+  }
+
+  .uploadExcel{
+    color: rgb(4, 0, 39);
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #78c7bf;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding: 7px;
+    justify-content: space-around;
+  }
+
+  .messageLabel{
+    color: rgb(4, 0, 39);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .uploadExcel:hover{
+    border-color: #1a192b;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 15px;
+    border: 2px solid #78c7bf;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    font-weight: bold;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color:#78c7bf;
+    ;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #78c7bf;
+    ;
+  }
+
+  .dndnode:hover{
+    border-color: #1a192b !important;
+    text-decoration: underline;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 95vh;
+    /* background-color: rgb(166, 155, 226); */
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  .dndflowheader{
+    padding: 10px;
+  }
+  
+  .dndflowfields{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .dndactive{
+    padding: 10px;
+  
+  }
+  
+  .dndactive>label{
+    margin: 5px;
+  }
+  .dndactive>span{
+    margin: 5px;
+    font-weight: 600;
+  }
+  .dndflowinput>input{
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px 0px;
+    
+  }
+  
+  .dndflowinput{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 50%; */
+    gap:15px
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 20%;
+      max-width: 250px;
+    }
+  }
+  
+  .groupinput{
+    height: 50px;
+    background-color: #eaf5f1;
+    /* width: 145px; */
+  
+  
+  
+  }
+  .groupLabel{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  .groupnodediv{
+    height: auto;
+    min-height: 250px;
+    padding:7px;
+    width: auto;
+    min-width: 178px;
+    background-color: white;
+    /* max-width: 800px; */
+    border: #95bfb0 1px solid;
+    /* box-shadow: 6px 4px 19px -6px rgba(0,0,0,0.75); */
+    border-radius: 10px;
+  }
+  
+  .textareadiv{
+    height: 20px;
+    border-radius: 2px;
+    background-color: #db5290;
+    margin: -6px -6px 0px -6px;
+  }
+  
+  
+  .quickdiv{
+   background-color: #0067ff;
+   font-size: 14px;
+   color: whitesmoke;
+   font-weight: 500;
+   text-align: center;
+   border-radius: 5px;
+  }
+
+  .grouptextarea{
+    border: none;
+    margin: 7px 0px !important;
+    background: #eaf5f1;
+    border-radius: 12px;
+  }
+  .textareacontainer{
+   height: auto;
+   border: #95bfb0 2px solid;
+   /* box-shadow: 6px 4px 19px -6px rgba(0,0,0,0.75); */
+   border-radius: 3px;
+   padding:5px;
+  
+  }
+  
+  .customnode{
+    background-color: azure;
+    width: 2px;
+  }
+  
+  .react-flow__node-input{
+    background-color: inherit !important;
+  }
+  .react-flow__handle{
+    min-width: 1px !important;
+    min-height: 1px !important;
+    background-color: grey !important;
+    border: 1px solid black !important;
+    width: 2px !important;
+    height: 2px !important;
+    
+
+  }
+
+  .react-flow__handle:hover{
+    cursor: crosshair !important;
+    pointer-events: all;
+  }
+  
+  .activeborder:focus-visible{
+    outline: rgba(218, 212, 212, 0.479) 1px solid !important;
+    border-radius: 2px !important;
+  }
+  
+  .activeborder{
+    font-size: 10px !important;
+  }
+  
+  .activeborder::-webkit-scrollbar {
+    width: 4px !important;
+  background: #e2dede;
+  }
+  
+  textarea{
+    resize: none;
+  }
+
+  .chathandle{
+    background-color: #d4d4e6d7 !important;
+    /* visibility: hidden; */
+  }
+
+  .coverhandle {
+    opacity: 2;
+    
+  }
+
+  .chathandleright{
+    height: 100% !important;
+    opacity: 0 !important;
+    width: 7px !important;
+  }
+
+  .customhandle{
+    width:2px;
+    height:2px;
+    background-color:black;
+    display:inline-block;
+    border-radius:20%
+  }
